@@ -81,6 +81,7 @@ O **Keras** é uma API de aprendizado profundo projetada para seres humanos, nã
 
 <img width="1143" height="2048" alt="672681474_4547678532119655_6574815170104942009_n" src="https://github.com/user-attachments/assets/69726d22-0fb5-4550-bcd9-c8b66f6b9bf9" />
 
+<img width="1080" height="1350" alt="670509759_1375143264633284_1081615128915418390_n" src="https://github.com/user-attachments/assets/04813e5f-d07d-43ff-938e-9e07a6ed5d58" />
 
 ![622402951_1464513672346645_4888751637558602075_n](https://github.com/user-attachments/assets/64af0d99-70dc-4b97-97c4-4a573cf558b0)
 
