@@ -378,6 +378,8 @@ Os transformers podem detectar tendências e anomalias para evitar fraudes, simp
 
 Uma arquitetura padrão do Transformer, mostrando um codificador à esquerda e um decodificador à direita. Observação: utiliza a convenção pré-LN, que é diferente da convenção pós-LN usada no Transformer original de 2017.
 
+<img width="720" height="730" alt="Screenshot_20241114-132223_Instagram" src="https://github.com/user-attachments/assets/479a06d6-840c-464d-bd75-560a7a69b499" />
+
 Por muitos anos, a modelagem e geração de sequências foi realizada utilizando redes neurais recorrentes simples (RNNs). Um exemplo antigo e bem citado foi a rede de Elman (1990). Em teoria, a informação de um token pode se propagar arbitrariamente ao longo da sequência, mas, na prática, o problema do gradiente evanescente deixa o estado do modelo no final de uma longa frase, sem informações precisas e extraíveis sobre os tokens precedentes.
 
 <img height="777" align="right" src="https://github.com/user-attachments/assets/3da0ab18-a5f6-4021-96de-f12e37725139" />
