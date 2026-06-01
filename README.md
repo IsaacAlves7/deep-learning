@@ -177,7 +177,9 @@ CNN (Rede Neural Convolucional) é a espinha dorsal da visão computacional. At�
 
 O coração dessa arquitetura está no processo de convolução, em que pequenos filtros — matrizes de pesos — deslizam sobre a imagem examinando regiões locais. Cada filtro aprende a destacar algo diferente: um pode responder a uma borda vertical, outro a uma textura pontilhada, outro a uma curva suave. Isso cria uma espécie de mapa de ativação, onde cada região da imagem revela “o quanto” aquele padrão está presente ali. O efeito disso é uma rede com uma sensibilidade espacial muito precisa, capaz de reconhecer o mesmo padrão independentemente de onde ele esteja. Essa propriedade, chamada invariância translacional, é exatamente o que torna CNNs tão poderosas para análise de imagens.
 
-Conforme as camadas avançam, surge um efeito de composição hierárquica. As primeiras camadas aprendem estruturas elementares; as intermediárias combinam essas estruturas em formas maiores, como cantos, partes de objetos ou padrões repetitivos; e as mais profundas passam a reconhecer conceitos inteiros. É por isso que, em redes profundas como a ResNet ou a Inception, os mapas de ativação finais respondem claramente a categorias visuais como `“gato”`, `“roda”`, `“janela”`, `“pata”`, `“farol”`. A rede não memoriza imagens: ela aprende representações cada vez mais abstratas e semânticas daquilo que vê.
+Conforme as camadas avançam, surge um efeito de composição hierárquica. As primeiras camadas aprendem estruturas elementares; as intermediárias combinam essas estruturas em formas maiores, como cantos, partes de objetos ou padrões repetitivos; e as mais profundas passam a reconhecer conceitos inteiros. É por isso que, em redes profundas como a ResNet ou a Inception, os mapas de ativação finais respondem claramente a categorias visuais como `“gato”`, `“roda”`, `“janela”`, `“pata”`, `“farol”`. 
+
+A rede não memoriza imagens: ela aprende representações cada vez mais abstratas e semânticas daquilo que vê.
 
 Exemplo:
 
@@ -253,7 +255,7 @@ Em última análise, GANs são menos um algoritmo e mais uma metáfora matemáti
 ## [DL] RNN - Recurrent Neural Networks
 <a href=""><img src="https://img.shields.io/badge/Python-NN-FFD21E?style=flat&logo=Python&logoColor=white"></a> <a href=""><img src="https://img.shields.io/badge/R-NN-FFD21E?style=flat&logo=R&logoColor=white"></a> <a href=""><img src="https://img.shields.io/badge/Tensorflow-NN-FFD21E?style=flat&logo=Tensorflow&logoColor=white"></a> <a href=""><img src="https://img.shields.io/badge/Pytorch-NN-FFD21E?style=flat&logo=Pytorch&logoColor=white"></a> <a href="https://www.youtube.com/@PROFESSORKENNYOFICIAL"><img src="https://img.shields.io/badge/Keras-NN-tomato?style=flat&logo=Keras&logoColor=white"></a> <a href="https://notebooklm.google/"><img src="https://img.shields.io/badge/GCP-NN-tomato?style=flat&logo=googlecloud&logoColor=white"></a>
 
-<img height="477" align="right" src="https://github.com/user-attachments/assets/27a22a23-7c66-48d1-a46d-529fb4f415df" />
+<img height="177" align="right" src="https://github.com/user-attachments/assets/27a22a23-7c66-48d1-a46d-529fb4f415df" />
 
 As **Redes Neurais Recorrentes** (RNN - Recurrent Neural Networks), representam uma classe fundamental de arquiteturas de redes neurais projetadas especificamente para processar dados sequenciais, quebrando uma limitação crucial das redes feedforward tradicionais. 
 
@@ -288,6 +290,59 @@ Os **MLPs - Multilayer Perceptrons** são a forma mais clássica, fundamental e 
 A ideia fundamental do MLP é aprender uma função ( $f(x)$ ) capaz de mapear entradas para saídas desejadas, e isso é feito ajustando pesos e vieses via backpropagation, que, por sua vez, utiliza um otimizador como gradiente descendente ou variantes mais modernas (Adam, RMSProp, etc.). O treinamento funciona como um ciclo de tentativa e erro, em que a rede faz uma previsão, compara com o valor verdadeiro, calcula o erro e empurra esse erro de volta pelas camadas para corrigir os pesos. Com repetições suficientes, o MLP converge para um conjunto de parâmetros que capturam as regularidades essenciais do problema. É um processo quase darwinista, onde cada ajuste microscópico melhora a capacidade da rede de “entender” o padrão subjacente.
 
 O MLP é versátil porque se adapta a praticamente qualquer tipo de tarefa supervisionada tradicional: classificação, regressão e até algumas formas de previsão temporal quando combinado com janelas deslizantes. Embora outras arquiteturas especializadas — CNNs para visão, RNNs e Transformers para sequências — dominem seus respectivos campos, os MLPs continuam relevantes não só como modelos leves e eficientes, mas também como blocos conceituais que explicam como redes mais elaboradas funcionam. Muita coisa em deep learning é, na essência, um grande MLP reorganizado com estruturas especiais. Além disso, MLPs modernos, quando ampliados com camadas residuais, normalização e ativadores avançados, reaparecem até mesmo dentro dos Transformers, onde servem como o “miolo” das camadas feed-forward. Ou seja, apesar de serem uma das primeiras formas de rede neural, continuam formando o esqueleto intelectual da maior parte das técnicas usadas atualmente.
+
+Pelo que você mostrou anteriormente do material, ele não está ensinando um modelo avançado como Transformer, GPT, CNN ou LSTM logo de início.
+
+Os laboratórios iniciais trabalham principalmente com:
+
+* **Regressão Logística** (que já pode ser vista como uma rede neural sem camadas ocultas);
+* **Perceptron**;
+* **MLP (Multi-Layer Perceptron)**, também chamado de rede neural feedforward totalmente conectada.
+
+A arquitetura típica apresentada nesses cursos costuma ser algo parecido com:
+
+$f(x)=W_2,\sigma(W_1x+b_1)+b_2$
+
+Onde:
+
+* (x) é a entrada;
+* (W_1) e (W_2) são os pesos;
+* (b_1) e (b_2) são os vieses (biases);
+* (\sigma) é uma função de ativação como ReLU ou Sigmoid.
+
+Em termos de evolução histórica, seria algo assim:
+
+```text
+Perceptron (1957)
+        ↓
+MLP (1980-1990)
+        ↓
+CNN (Visão Computacional)
+        ↓
+RNN / LSTM (Sequências)
+        ↓
+Transformers (2017)
+        ↓
+GPT, BERT, Llama, Claude...
+```
+
+Então o modelo de Deep Learning que você está estudando nesse laboratório é, muito provavelmente, um **MLP (Multi-Layer Perceptron)**.
+
+Ele é considerado o "Hello World" das redes neurais porque ensina os conceitos fundamentais:
+
+* neurônios artificiais;
+* pesos;
+* bias;
+* funções de ativação;
+* função de perda;
+* gradiente;
+* backpropagation;
+* treinamento.
+
+Esses conceitos continuam existindo até nos modelos mais modernos. Um GPT com centenas de bilhões de parâmetros ainda utiliza gradientes, pesos, funções de ativação e otimização — apenas em uma escala muito maior e com uma arquitetura diferente.
+
+Por isso, mesmo que hoje todo mundo fale de LLMs e IA Generativa, estudar Perceptron e MLP não é perda de tempo. É como aprender estruturas de dados antes de estudar sistemas distribuídos: você está aprendendo os blocos fundamentais sobre os quais o restante foi construído.
+
 
 ## [DL] SOMs - Self Organizing Maps
 <img src="https://github.com/user-attachments/assets/ccd5407c-d9e0-4303-b1fe-1b33564f8663" align="right" height="77">
