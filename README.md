@@ -79,6 +79,8 @@ Essas têm sido aplicadas em áreas como visão computacional, reconhecimento au
 
 O **Keras** é uma API de aprendizado profundo projetada para seres humanos, não Máquinas. Keras se concentra na velocidade de depuração, elegância do código e concisão, capacidade de manutenção e capacidade de implantação. Quando você escolhe Keras, sua base de código é menor, mais legível, mais fácil de iterar em. Com sua abordagem multi-back-end (multi-framework), o Keras oferece a liberdade de trabalhar com JAX, TensorFlow e PyTorch. Crie modelos que podem se mover perfeitamente entre essas estruturas e aproveitar os pontos fortes de cada ecossistema.
 
+<img width="1025" height="1434" alt="743817651_1399656612128251_8147905820894561660_n" src="https://github.com/user-attachments/assets/e6c36cfd-e525-435e-9a63-44cc4a6f42db" />
+
 <img width="1143" height="2048" alt="672681474_4547678532119655_6574815170104942009_n" src="https://github.com/user-attachments/assets/69726d22-0fb5-4550-bcd9-c8b66f6b9bf9" />
 
 <img width="1080" height="1350" alt="670509759_1375143264633284_1081615128915418390_n" src="https://github.com/user-attachments/assets/04813e5f-d07d-43ff-938e-9e07a6ed5d58" />
