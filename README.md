@@ -79,17 +79,21 @@ Essas têm sido aplicadas em áreas como visão computacional, reconhecimento au
 
 O **Keras** é uma API de aprendizado profundo projetada para seres humanos, não Máquinas. Keras se concentra na velocidade de depuração, elegância do código e concisão, capacidade de manutenção e capacidade de implantação. Quando você escolhe Keras, sua base de código é menor, mais legível, mais fácil de iterar em. Com sua abordagem multi-back-end (multi-framework), o Keras oferece a liberdade de trabalhar com JAX, TensorFlow e PyTorch. Crie modelos que podem se mover perfeitamente entre essas estruturas e aproveitar os pontos fortes de cada ecossistema.
 
-<img width="1025" height="1434" alt="743817651_1399656612128251_8147905820894561660_n" src="https://github.com/user-attachments/assets/e6c36cfd-e525-435e-9a63-44cc4a6f42db" />
-
-<img width="1143" height="2048" alt="672681474_4547678532119655_6574815170104942009_n" src="https://github.com/user-attachments/assets/69726d22-0fb5-4550-bcd9-c8b66f6b9bf9" />
-
-<img width="1080" height="1350" alt="670509759_1375143264633284_1081615128915418390_n" src="https://github.com/user-attachments/assets/04813e5f-d07d-43ff-938e-9e07a6ed5d58" />
+<table>
+  <tr>
+    <td><img width="1025" height="1434" alt="743817651_1399656612128251_8147905820894561660_n" src="https://github.com/user-attachments/assets/e6c36cfd-e525-435e-9a63-44cc4a6f42db" /></td>
+    <td><img width="1143" height="2048" alt="672681474_4547678532119655_6574815170104942009_n" src="https://github.com/user-attachments/assets/69726d22-0fb5-4550-bcd9-c8b66f6b9bf9" /></td>
+    <td><img width="1080" height="1350" alt="670509759_1375143264633284_1081615128915418390_n" src="https://github.com/user-attachments/assets/04813e5f-d07d-43ff-938e-9e07a6ed5d58" /></td>
+  </tr>
+</table>
 
 ![622402951_1464513672346645_4888751637558602075_n](https://github.com/user-attachments/assets/64af0d99-70dc-4b97-97c4-4a573cf558b0)
 
 ![588332797_868753202341499_6161281450660469596_n](https://github.com/user-attachments/assets/2687d748-81a6-46d0-bfb9-f371e751c393)
 
 ![infografico](https://github.com/user-attachments/assets/f5af48d7-ee43-4d79-85eb-fa1e998593de)
+
+<img width="1024" height="1536" alt="732179061_2110056059725988_2129549633408042254_n" src="https://github.com/user-attachments/assets/fb6882cb-0b12-467a-b176-6c1f6a5c3ef0" />
 
 ## [DL] Neural Network Feed-forward
 <img height="77" align="right" src="https://github.com/user-attachments/assets/735eeb46-93a2-4539-b4a8-b4646fa7eba9" />
