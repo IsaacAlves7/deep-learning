@@ -197,7 +197,12 @@ Mesmo com o crescimento dos Transformers aplicados a visão, as CNNs continuam e
 
 Arquiteturas híbridas modernas combinam convolução com atenção exatamente porque as CNNs capturam relações locais com uma naturalidade que ainda não foi substituída por completo. Em essência, uma CNN é uma homenagem matemática ao próprio ato de enxergar: fragmentos locais que, somados e reinterpretados em camadas sucessivas, formam a compreensão global do mundo visual.
 
-![616136998_1353369200138234_7703530091595592433_n](https://github.com/user-attachments/assets/b5f06cf6-d825-4346-9809-21923151efce)
+<table>
+  <tr>
+    <td><img width="1024" height="1536" alt="747613357_1684818465907747_558416538449167387_n" src="https://github.com/user-attachments/assets/59059f97-3dad-44c7-b612-02a64f9bde01" /></td>
+    <td><img src="https://github.com/user-attachments/assets/b5f06cf6-d825-4346-9809-21923151efce"></td>
+  </tr>
+</table>
 
 O primeiro passo é importar as bibliotecas necessárias. As bibliotecas facilitam nossa vida, pois não precisamos implementá-las do zero:
 
