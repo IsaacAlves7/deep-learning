@@ -1,3 +1,5 @@
+> Versículo chave: "Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos." - Provérbios 16:3
+
 # 🕳️ DL - Deep Learning
 <a href=""><img src="https://img.shields.io/badge/Google_Colab-DL-tomato?style=flat&logo=GoogleColab&logoColor=white"></a> <a href=""><img src="https://img.shields.io/badge/Google_Colab-DL-tomato?style=flat&logo=GoogleColab&logoColor=white"></a> <a href=""><img src="https://img.shields.io/badge/Google_Colab-DL-4285F4?style=flat&logo=GoogleColab&logoColor=white"></a> <a href=""><img src="https://img.shields.io/badge/Google_Colab-DL-4285F4?style=flat&logo=GoogleColab&logoColor=white"></a> <a href=""><img src="https://img.shields.io/badge/Jupyter-DL-orange?style=flat&logo=Jupyter&logoColor=white"></a> <a href=""><img src="https://img.shields.io/badge/R-DL-FEC111?style=flat&logo=R&logoColor=white"></a> <a href=""><img src="https://img.shields.io/badge/Tensorflow-DL-FEC111?style=flat&logo=Tensorflow&logoColor=white"></a> <a href=""><img src="https://img.shields.io/badge/Keras-DL-red?style=flat&logo=Keras&logoColor=white"></a>
 
