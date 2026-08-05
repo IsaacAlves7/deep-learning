@@ -51,6 +51,8 @@ Chegando ao fim do ciclo, **Model Evaluation** é o momento em que você realmen
 
 Por fim, **Deployment** é a última etapa, onde tudo vira algo real. É quando o modelo sai do notebook e entra em produção: integrações, pipelines, versionamento, rollback, observabilidade, escalabilidade e infraestrutura automatizada. Aqui se trata de gerenciar modelos como sistemas vivos que precisam de manutenção, monitoramento, re-treinamento e cuidado contínuo.
 
+<img width="720" height="538" alt="FB_IMG_1705012705442" src="https://github.com/user-attachments/assets/9ba5211e-e29c-4742-a86a-40769bb55a83" />
+
 <img width="720" height="557" alt="FB_IMG_1697080491409" src="https://github.com/user-attachments/assets/734f90cb-504a-4adc-9ce0-f149c9e9f2ac" />
 <img width="720" height="557" alt="FB_IMG_1697080493622" src="https://github.com/user-attachments/assets/e3225d49-1bb0-4812-ad11-450c9490c4be" />
 
