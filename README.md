@@ -51,13 +51,8 @@ Chegando ao fim do ciclo, **Model Evaluation** é o momento em que você realmen
 
 Por fim, **Deployment** é a última etapa, onde tudo vira algo real. É quando o modelo sai do notebook e entra em produção: integrações, pipelines, versionamento, rollback, observabilidade, escalabilidade e infraestrutura automatizada. Aqui se trata de gerenciar modelos como sistemas vivos que precisam de manutenção, monitoramento, re-treinamento e cuidado contínuo.
 
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/b8ffdc54-4805-469e-b7b0-c72d35cbb0f4" height="777"></td>
-    <td><img src="https://github.com/user-attachments/assets/cf526c93-fefc-4317-849d-67539f87fb73" height="777"></td>
-    <td><img src="https://github.com/user-attachments/assets/3ee455a7-9c98-4dc5-b952-916ca866f08f" height="777"></td>
-  </tr>
-</table>
+<img width="720" height="557" alt="FB_IMG_1697080491409" src="https://github.com/user-attachments/assets/734f90cb-504a-4adc-9ce0-f149c9e9f2ac" />
+<img width="720" height="557" alt="FB_IMG_1697080493622" src="https://github.com/user-attachments/assets/e3225d49-1bb0-4812-ad11-450c9490c4be" />
 
 A diferença entre Machine Learning e Deep Learning:
 
@@ -72,6 +67,14 @@ Várias arquiteturas de aprendizagem profunda, tais como:
 - <a href="">Redes de crenças profundas (DBNs)</a>: RCPs são um tipo de modelo de aprendizado de máquina que combina elementos de redes neurais e modelos gráficos probabilísticos.
 
 - <a href="">Redes neurais recorrentes (RNNs)</a>: RNRs são um tipo de modelo de aprendizado de máquina que é especialmente projetado para processar dados sequenciais, como texto, fala, séries temporais, etc.
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/b8ffdc54-4805-469e-b7b0-c72d35cbb0f4" height="777"></td>
+    <td><img src="https://github.com/user-attachments/assets/cf526c93-fefc-4317-849d-67539f87fb73" height="777"></td>
+    <td><img src="https://github.com/user-attachments/assets/3ee455a7-9c98-4dc5-b952-916ca866f08f" height="777"></td>
+  </tr>
+</table>
 
 Essas têm sido aplicadas em áreas como visão computacional, reconhecimento automático de fala, processamento de linguagem natural, reconhecimento de áudio e bioinformática, onde elas têm se mostrado capazes de produzir resultados do estado-da-arte em várias tarefas.
 
